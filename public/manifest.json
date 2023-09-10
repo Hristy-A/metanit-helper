@@ -1,0 +1,19 @@
+{
+  "name": "Metanit Code Helper",
+  "description": "Adds the ability to copy code on the metanit portal.",
+  "version": "0.1",
+  "manifest_version": 3,
+  "icons": {
+    "16": "assets/icon-active.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "assets/icon-active.png"
+    }
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["scripting", "activeTab"],
+  "incognito": "split"
+}
